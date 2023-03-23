@@ -1,0 +1,3 @@
+USUARIOS(#idUsuario, nombreUsuario, claveUsuario, emailUsuario)
+ELEMENTOS(#idElemento, nombreElemento, descripcionElemento)
+INCIDENCIAS(#idIncidencia, descripcionIncidencia, fechaAperturaIncidencia, fechaResolucionIncidencia, idUsuarioFK, idElementoFK)
